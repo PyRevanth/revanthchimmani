@@ -2280,7 +2280,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 	color:#fff
 }
 .home-banner-area {
-	background:url("../../revanth/webp/banner-bg1.jpg") center;
+	background:url("../../files/webp/banner-bg1.jpg") center;
 	background-size:cover
 }
 @media(max-width:769px){.home-banner-area .fullscreen {
