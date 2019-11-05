@@ -1,9 +1,11 @@
 ::-moz-selection {
-	background-color: #e45447;
+/*	background-color: #e45447;*/
+	background-color: #326DE6;
 	color: #fff
 }
 ::selection {
-	background-color: #e45447;
+/*	background-color: #e45447;*/
+	background-color: #326DE6;
 	color: #fff
 }
 ::-webkit-input-placeholder {
