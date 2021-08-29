@@ -116,18 +116,18 @@ let swiperporfolio = new Swiper('.portfolio__container', {
 let swiperTestimonial = new Swiper('.testimonial__container', {
     cssMode: true,
     loop: true,
-    // grabCursor: true,
+    grabCursor: true,
     spaceBetween: 48,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
-      dynamicBullets: true,
-    },
-    breakpoints:{
-        568:{
-            slidesPerView:1,
-        }
+      dynamicBullets: true
     }
+    // breakpoints:{
+    //     // 568:{
+    //     //     slidesPerView:1,
+    //     // }
+    // }
   });
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
